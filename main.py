@@ -38,7 +38,8 @@ palabras = word_tokenize(texto, language="spanish")
 # Mostramos la lista de palabras obtenidas
 print(palabras)
 
-# Obtenemos la lista de palabras vacías en español, es decir, cargamos las stopwords en español. Aquí obtenemos una lista de palabras comunes en español que normalmente no necesistamos para el análisis.
+# Obtenemos la lista de palabras vacías en español, es decir, cargamos las stopwords en español. Aquí obtenemos una lista de palabras
+#  comunes en español que normalmente no necesistamos para el análisis.
 stop_words = set(stopwords.words("spanish"))
 
 # Filtramos las palabras: eliminamos las stopwords y los signos de puntuación
@@ -58,4 +59,4 @@ print(palabras_filtradas)
 frecuencia_de_las_palabras = FreqDist(palabras_filtradas)
 
 # Mostramos las 10 palabras más comunes y la cantidad de veces que aparecen
-print(frecuencia_de_las_palabras.most_common(10))
+print(frecuencia_de_las_palabras.most_common(15))
