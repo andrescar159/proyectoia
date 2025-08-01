@@ -25,6 +25,11 @@ Mi nombre es Carlos Andres, me dedico a la programacion y me gusta mucho el futb
 Tambien me gusta mucho la musica y la lectura, tambien soy instructor de programacion.
 
 Mi compañero es Jheyson Galvis, soy profesor, me gusta caminar y viajar, dormir.
+
+Mi compañera es Luz Janeth, soy especiaista en analisis de datos, me gusta viajar y ver peliculas, ir al gym y dormir.
+
+Mi nombre es Stiven Garzón, soy estudiante de tecnología de software, me gusta la programación y la tecnología, me gusta el futbol.
+También me gusta la música y la lectura, me gusta los video juegos.
 """
 
 # Tokenización: Convertimos el texto en una lista de palabras individuales
