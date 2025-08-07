@@ -58,5 +58,5 @@ print(palabras_filtradas)
 # Calculamos la frecuencia de cada palabra en la lista filtrada
 frecuencia_de_las_palabras = FreqDist(palabras_filtradas)
 
-# Mostramos las 10 palabras más comunes y la cantidad de veces que aparecen
+# Mostramos las 15 palabras más comunes y la cantidad de veces que aparecen
 print(frecuencia_de_las_palabras.most_common(15))
